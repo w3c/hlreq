@@ -33,6 +33,6 @@ Nothing in this agreement restricts the Task Force Participant from using their 
 
 ##Decency
 
-The Task Force Participant will participate in the W3C Group in a decent way. Task Force Participants will refrain from defaming, harassing or otherwise offending other participants. The [Section 3.1 of the Process Document](https://www.w3.org/2015/Process-20150901/#ParticipationCriteria) applies.
+The Task Force Participant will participate in the W3C Group in a decent way. Task Force Participants will refrain from defaming, harassing or otherwise offending other participants. The [Section 3.1 of the Process Document](https://www.w3.org/2015/Process-20150901/#ParticipationCriteria) applies, as does the W3C [Code of Ethics and Professional Conduct](https://www.w3.org/Consortium/cepc/).
 
-The Task Force Participant will refrain from sending unsolicited commercial messages to W3C mailing-lists and other promotional activities for personal matters or for third parties. This is especially required from Task Force Participants sending messages to public W3C Groups. 
+The Task Force Participant will refrain from sending unsolicited commercial messages to W3C mailing-lists and other promotional activities for personal matters or for third parties. This is especially required from Task Force Participants sending messages to public W3C Groups.
