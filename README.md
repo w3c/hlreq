@@ -1,7 +1,7 @@
 # Hebrew Script Layout Requirements (hlreq)
 
 ###Documents
-- [Editor's copy](tbd)
+- [Editor's copy](https://w3c.github.io/hlreq/)
 
 ###Feedback
 Feedback about the content of this document can be submitted via issues or pull request in this GitHub repo.
