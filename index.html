@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Hebrew Layout Requirements</title>
+  <script src="https://www.w3.org/Tools/respec/respec-w3c-common" async="" class="remove" type="text/javascript">
+</script>
+  <script class="remove" type="text/javascript">
+  var respecConfig = {
+      // specification status (e.g. WD, LCWD, WG-NOTE, etc.). If in doubt use ED.
+      specStatus:           "ED",
+      //publishDate:  		"2015-07-21",
+      //previousPublishDate:  "2014-12-16",
+      //previousMaturity:  "FPWD",
+
+      noRecTrack:           true,
+      shortName:            "hlreq",
+      copyrightStart:       "2017",
+      edDraftURI:           "http://w3c.github.io/hlreq/",
+
+      // if this is a LCWD, uncomment and set the end of its review period
+      // lcEnd: "2009-08-05",
+
+      // editors, add as many as you like
+      // only "name" is required
+      editors:  [
+        { name: "This person", mailto: "them@example.com", company: "CompanyName" },
+        { name: "That person", mailto: "them@example.com", company: "CompanyName" },
+      ],
+
+
+      wg:           "Internationalization Working Group",
+      wgURI:        "http://www.w3.org/International/core/",
+      wgPublicList: "public-i18n-hebrew",
+      bugTracker: { new: "https://github.com/w3c/hlreq/issues", open: "https://github.com/w3c/hlreq/issues" } ,
+      otherLinks: [
+        {
+          key: "Github",
+          data: [
+          {
+            value: "repository",
+            href: "https://github.com/w3c/hlreq"
+          }
+          ]
+        }
+      ],
+
+      // URI of the patent status for this WG, for Rec-track documents
+      // !!!! IMPORTANT !!!!
+      // This is important for Rec-track documents, do not copy a patent URI from a random
+      // document unless you know what you're doing. If in doubt ask your friendly neighbourhood
+      // Team Contact.
+      wgPatentURI:  "http://www.w3.org/2004/01/pp-impl/32113/status",
+      // !!!! IMPORTANT !!!! MAKE THE ABOVE BLINK IN YOUR HEAD
+    };
+  </script>
+  <link rel="stylesheet" href="local.css" type="text/css">
+</head>
+
+<body>
+  <div id="abstract">
+    <p>This document describes requirements for the layout and presentation of text in languages that use the Hebrew script when they are used by Web standards and technologies, such as HTML, CSS, Mobile Web, Digital Publications, and Unicode.</p>
+  </div>
+
+  <div id="sotd">
+    <p>This document describes the basic requirements for Hebrew script layout and text support on the Web and in eBooks. These requirements provide information for Web technologies such as CSS, HTML and digital publications about how to support users of Hebrew scripts. Currently the document focuses on Hebrew as used for YYYY.</p>
+
+    <p>The editor's draft of this document is being developed by the <a href="http://www.w3.org/International/groups/hebrew-layout/">Hebrew Layout Task Force</a>, part of the W3C <a href="http://www.w3.org/International/ig/">Internationalization Interest Group</a>. It is published by the <a href="http://www.w3.org/International/core/">Internationalization Working Group</a>. The end target for this document is a Working Group Note.</p>
+
+    <div class="note">
+      <p data-lang="en" style="font-weight: bold; font-size: 120%">Sending comments on this document</p>
+
+      <p data-lang="en">If you wish to make comments regarding this document, please raise them as <a href="https://github.com/w3c/hlreq/issues" style="font-size: 120%;">github issues</a> <!--against the <a href="http://www.w3.org/TR/2015/WD-ilreq-20150721/" style="font-size: 120%">latest dated version in /TR</a>-->. Only send comments by email if you are unable to raise issues on github (see links below). All comments are welcome.</p>
+
+      <p data-lang="en">To make it easier to track comments, please raise separate issues or emails for each comment, and point to the section you are commenting on&nbsp; using a URL.</p>
+    </div>
+  </div>
+
+  <section id="h_introduction">
+    <h2><a href="#h_introduction">Introduction</a></h2>
+
+    <section id="h_about_this_document">
+      <h3><a href="#h_about_this_document">About this document</a></h3>
+
+      <p>Some text goes here.</p>
+    </section>
+  </section>
+
+  <section id="h_arabic_script_overview">
+    <h2><a href="#h_arabic_script_overview">Hebrew Script Overview</a></h2>
+    <p>This section introduces the Hebrew script in general terms, providing some context and terminology that is useful in the remainder of the document. If possible, it's best not to introduce actual requirements in this section, but to leave those and detailed descriptions of expected typography to the sections that follow.</p>
+    <p>Is the script an alphabet, abugida, abjad, syllabary, etc? What are the basic set of characters for major languages written in the script? How does the script work? Are glyphs in the script regularly joined up, as in Arabic, or not? Are there other special features, such as stacking, syllabic clusters and conjuncts, etc. Is there a set of characters used for special purposes, such as transcription? Are multiple scripts used? </p>
+    <p>What are the basic directional features of the script? Is the script written right-to-left, or bidirectionally? Is is written vertically? If so, can it also be written horizontally, what is the frequency with which it is written one way or the other, and which side is the first line on?</p>
+    <p> Are there special considerations about page layout that should be described briefly at this point, eg. Japanese kihon-hanmen?</p>
+  </section>
+
+  <section id="h_characters_and_phrases">
+    <h2><a href="#h_characters_and_phrases">Characters and phrases</a></h2>
+    <p>The following is placeholder text, aimed to give suggestions for content. Actual content will depend on the needs of the script being described. Change and reorganize sections and headings and needed.
+      <section id="h_fonts">
+      </section>
+    </p>
+    <section id="h_fonts">
+      <h3><a href="#h_fonts">Fonts and font styles</a></h3>
+      <p>What are key fonts and or font styles used for this script? Are there standard fallback fonts in use in browsers, and if so do they match expectations? Does the script use fixed-width font glyphs, proportionally-spaced fonts, or a combination? <a href="index#fonts">See available information</a> or <a href="https://github.com/w3c/typography/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3Afonts%20label%3Ainfo-req">check for currently needed data</a>.</p>
+    </section>
+
+    <section id="h_punctuation">
+      <h3><a href="#h_punctuation">Punctuation</a></h3>
+      <p>What are the typical punctuation marks used, and how are they used? (See other sections for information about how quotations work, and how punctuation interacts with boundary detection and line-breaking, etc.) <a href="index#punctuation">See available information</a> or <a href="https://github.com/w3c/typography/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3Apunctuation%20label%3Ainfo-req">check for currently needed data</a>.</p>
+    </section>
+
+    <section id="h_quotations">
+      <h3><a href="#h_quotations">Quotations</a></h3>
+      <p>What is the expected behaviour for quotations marks, especially when nested? Should block quotes be indented or handled specially? <a href="index#quotations">See available information</a> or <a href="https://github.com/w3c/typography/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3Aquotations%20label%3Ainfo-req">check for currently needed data</a>.</p>
+    </section>
+
+    <section id="h_symbols">
+      <h3><a href="#h_symbols">Symbols</a></h3>
+      <p>Does the script use special symbols that are worth noting, eg. head marks in Tibetan?</p>
+    </section>
+
+    <section id="h_digits">
+      <h3><a href="#h_digits">Numbers and digits</a></h3>
+      <p>Does the script have its own set of number digits? How are they used, and how frequently? Does the numbering system use base-10, or some other type of base?</p>
+    </section>
+
+    <section id="h_segmentation">
+      <h3><a href="#h_segmentation">Text segmentation</a></h3>
+      <p>What are the basic units of the text, and how are they demarcated, eg. characters, character sequences, syllables, or words?  Are spaces or different symbols used between 'words'? Is it important to treat clusters of characters as a single unit? What should happen if you double- or triple-click in the text, whether or not 'words' are separated by spaces? <a href="index#graphemes">See available information</a>.</p>
+    </section>
+
+    <section id="h_transforms">
+      <h3><a href="#h_transforms">Transforming characters</a></h3>
+      <p>What transformations does your script need? For example, does your script convert letters to uppercase, capitalised and lowercase alternatives according to your typographic needs? Do you need to to convert between half-width and full-width presentation forms? <a href="index#transforming_characters">See available information</a> or <a href="https://github.com/w3c/typography/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3Acharacter-transforms%20label%3Ainfo-req">check for currently needed data</a>.</p>
+    </section>
+
+    <section id="h_inline_spacing">
+      <h3><a href="#h_inline_spacing">Inline spacing</a></h3>
+      <p>Many scripts create emphasis or other effects by spacing out the letters or syllables in a word. We know there are questions here about how this should work in Indic and SE Asian scripts, and in Arabic-based scripts.  Can you provide information? Are there requirements for other scripts that we should add? See <a href="index#letter_spacing">available information</a> or <a href="https://github.com/w3c/typography/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3Ainline-spacing%20label%3Ainfo-req">check for currently needed data</a>.</p>
+    </section>
+
+    <section id="h_ruby">
+      <h3><a href="#h_ruby">Ruby annotation</a></h3>
+      <p>The ruby spec currently specifies an initial subset of requirements for fine-tuning the typography of phonetic and semantic annotations of East Asian text, including furigana, pinyin and zhuyin fuhao systems.  Is is adequate for what it sets out to do?  What other controls will be needed in the future? <a href="index#ruby_annotation">See available information</a> or <a href="https://github.com/w3c/typography/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3Aruby%20label%3Ainfo-req">check for currently needed data</a>.</p>
+    </section>
+
+    <section id="h_text_decoration">
+      <h3><a href="#h_text_decoration">Text decoration</a></h3>
+      <p>Some aspects related to the drawing of lines alongside or through text involve local typographic considerations. For example, underlines need to be broken in special ways for some scripts, and the height of strike-through may vary depending on the script. What about vertical text? <a href="index#text_decoration">See available information</a> or <a href="https://github.com/w3c/typography/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3Atext-decoration%20label%3Ainfo-req">check for currently needed data</a>.</p>
+    </section>
+
+    <section id="h_emphasis">
+      <h3><a href="#h_emphasis">Emphasis</a></h3>
+      <p>Bold and italic are not always appropriate for expressing emphasis, and some scripts have their own unique ways of doing it, that are not in the Western tradition at all. <a href="index#emphasis">See available information</a> or <a href="https://github.com/w3c/typography/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3Aemphasis%20label%3Ainfo-req">check for currently needed data</a>.</p>
+    </section>
+  </section>
+
+  <section id="h_lines_and_paragraphs">
+<h2><a href="#h_lines_and_paragraphs">Lines and Paragraphs</a></h2>
+
+    <section id="h_line_breaking">
+      <h3><a href="#h_line_breaking">Line breaking</a></h3>
+      <p>Does CSS capture the rules about the way text in your script wraps when it hits the end of a line?  What characters should not appear at the end or start of a line, and what should be done to prevent that? Does line-breaking wrap whole 'words' at a time, or characters, or something else (such as syllables in Tibetan)? <a href="index#line_breaking">See available information</a> or <a href="https://github.com/w3c/typography/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3Aline-break%20label%3Ainfo-req">check for currently needed data</a>.</p>
+    </section>
+
+    <section id="h_hyphenation">
+      <h3><a href="#h_hyphenation">Hyphenation</a></h3>
+      <p>Is hyphenation used for your script, or something else? If hyphenation is used, where should the hyphen appear? <a href="index#hyphenation">See available information</a> or <a href="https://github.com/w3c/typography/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3Ahyphenation%20label%3Ainfo-req">check for currently needed data</a>.</p>
+    </section>
+
+    <section id="h_justification">
+      <h3><a href="#h_justification">Justification &amp; line-end alignment</a></h3>
+      <p> When text in a paragraph needs to have flush lines down both sides, does it follow the rules for your script? Does the script conform to a grid pattern? 
+        Does your script allow punctuation to hang outside the text box at the start or end of a line? Where adjustments are need to make a line flush, how is that done? Do you shrink/stretch space between words and/or letters? Are word baselines stretched, as in Arabic? <a href="index#justification">See available information</a> or <a href="https://github.com/w3c/typography/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3Ajustification%20label%3Ainfo-req">check for currently needed data</a>.</p>
+    </section>
+    <section id="h_counters">
+    <h3><a href="#h_counters">Counters, lists, etc</a></h3>
+    <p>The CSS Counter Styles specification describes a limited set of simple and complex styles for counters to be used in list numbering, chapter heading numbering, etc. Are the details correct?
+      We have another document that provides over 120 templates for user-defined counter styles in over 30 scripts. Are there more? Are there other aspects related to counters and lists that need to be addressed? <a href="index#counters">See available information</a> or <a href="https://github.com/w3c/typography/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3Acounters%20label%3Ainfo-req">check for currently needed data</a>.</p>
+    </section>
+  
+  
+  <section id="h_initial_letter">
+    <h3><a href="#h_initial_letter">Initial letter styling</a></h3>
+    <p>Does the browser or ereader correctly handle special styling of the initial letter of a line or paragraph, such as for drop caps? <a href="index#initial_letter">See available information</a> or <a href="https://github.com/w3c/typography/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3Ainitial-letter%20label%3Ainfo-req">check for currently needed data</a>.</p>
+  </section>
+  
+  <section id="h_baselines">
+    <h3><a href="#h_baselines">Baselines</a></h3>
+    <p>What are the  requirements for baseline alignment between mixed scripts and in general? <a href="index#baselines_inline_alignment">See available information</a> or <a href="https://github.com/w3c/typography/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3Abaselines%20label%3Ainfo-req">check for currently needed data</a>.</p>
+  </section>
+  
+  <section id="h_other_paragraph">
+    <h3><a href="#h_other_paragraph">Other paragraph features</a></h3>
+    <p>In your script, is the first line of text typically indented at the start of a paragraph? Are there other features of paragraph design that are peculiar to your script? <a href="index#other_para_features">See available information</a> or <a href="https://github.com/w3c/typography/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3Aparagraph-features%20label%3Ainfo-req">check for currently needed data</a>.</p>
+  </section>
+      
+</section>
+
+  <section id="h_pages">
+    <h2><a href="#h_pages">Layout &amp; pages</a></h2>
+    <section id="h_vertical_text">
+    <h3><a href="#h_vertical_text">Vertical text</a></h3>
+    <p>What are  the requirements for vertically oriented text?  What about if you mix vertical text with scripts that are normally only horizontal? Is it normal to use different character in vertical vs. horizontal text? <a href="index#vertical_text">See available information</a>.</p>
+    </section>
+
+    <section id="h_notes">
+    <h3><a href="#h_notes">Notes, footnotes, etc</a></h3>
+    <p>Does your script have special requirements for notes, footnotes, endnotes or other necessary annotations of this kind in the way needed for your culture? <a href="index#notes_footnotes">See available information</a> or <a href="https://github.com/w3c/typography/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3Anotes-footnotes%20label%3Ainfo-req">check for currently needed data</a>.</p>
+    </section>
+
+    <section id="h_page_numbering">
+    <h3><a href="#h_page_numbering">Page numbering, running headers, etc</a></h3>
+    <p>Are there special conventions for page numbering, or the way that running headers and the like are handled? <a href="index#page_numbering_running_headers">See available information</a> or <a href="https://github.com/w3c/typography/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3Apage-numbering%20label%3Ainfo-req">check for currently needed data</a>.</p>
+    </section>
+
+    <section id="h_pagination">
+    <h3><a href="#h_pagination">More page layout &amp; pagination</a></h3>
+    <p>Some cultures define page areas and page progression direction very differently from those in the West (eg. kihon hanmen in Japanese). Is this an issue for you? Are widows and orphans relevant? In what order do pages progress, RTL or LTR? <a href="index#more_page_layout_and_pagination">See available information</a> or <a href="https://github.com/w3c/typography/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3Apagination%20label%3Ainfo-req">check for currently needed data</a>.</p>
+    </section>
+
+</section>
+  <section class="appendix" id="glossary">
+    <h2><a href="#glossary">Glossary</a></h2>
+
+    <table class="glossary">
+      <thead>
+        <tr>
+          <th>Term</th>
+
+          <th>Hebrew</th>
+
+          <th>Transliteration</th>
+
+          <th>Definition</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr id="def_alignment">
+          <td>alignment</td>
+
+          <td class="rtlTermCell">&nbsp;</td>
+
+          <td class="rtlTermCell">&nbsp;</td>
+
+          <td><br></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="appendix" id="acknowledgements">
+    <h2><a href="#acknowledgements">Acknowledgements</a></h2>
+
+    <p>Special thanks to the following people who contributed to this document (contributors' names listed in in alphabetic order).</p>
+
+    <p class="acknowledgement">This Person, That Person, etc</p>
+
+    <p data-lang="en">Please find the latest info of the contributors at the <a href="https://github.com/w3c/hlreq/graphs/contributors">GitHub contributors list</a>.</p>
+  </section>
+</body>
+</html>
