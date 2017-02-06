@@ -17,4 +17,6 @@ Editors should be familiar with and use the following:
 - [Github guidelines for working with i18n documents](http://w3c.github.io/i18n-activity/guidelines/github)
 - [Editorial guidelines for working with i18n documents](http://w3c.github.io/i18n-activity/guidelines/editing)
 
-
+###Links
+- [Task Force Home Page](https://w3c.github.io/i18n-activity/hlreq/)
+- [Charter](https://www.w3.org/International/groups/hebrew-layout/charter.html)
