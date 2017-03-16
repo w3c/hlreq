@@ -1,15 +1,15 @@
 # Hebrew Script Layout Requirements (hlreq)
 
-###Documents
+### Documents
 - [Editor's copy](https://w3c.github.io/hlreq/)
 
-###Feedback
+### Feedback
 Please use the [GitHub issue list](https://github.com/w3c/hlreq/issues) to send feedback about this document.
 
-###Following
+### Following
 To follow the work, you can 'Watch' this repository using the control above, or subscribe to the [public-i18n-hebrew](https://lists.w3.org/Archives/Public/public-i18n-hebrew/) mailing list, which is notified once a day about changes to the repo. The [www-international](https://lists.w3.org/Archives/Public/www-international/) list is also notified daily. (Please use github issues rather than the mailing list to send feedback.) Meeting minutes are sent to public-i18n-hebrew.
 
-###Contributing
+### Contributing
 
 All contributors should read and agree with [CONTRIBUTING.md](https://github.com/w3c/hlreq/blob/gh-pages/CONTRIBUTING.md).
 
@@ -20,6 +20,6 @@ Editors should be familiar with and use the following:
 - [Github guidelines for working with i18n documents](http://w3c.github.io/i18n-activity/guidelines/github)
 - [Editorial guidelines for working with i18n documents](http://w3c.github.io/i18n-activity/guidelines/editing)
 
-###Links
+### Links
 - [Task Force Home Page](https://w3c.github.io/i18n-activity/hlreq/)
 - [Charter](https://www.w3.org/International/groups/hebrew-layout/charter.html)
