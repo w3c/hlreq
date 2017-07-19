@@ -23,3 +23,5 @@ Editors should be familiar with and use the following:
 ### Links
 - [Task Force Home Page](https://w3c.github.io/i18n-activity/hlreq/)
 - [Charter](https://www.w3.org/International/groups/hebrew-layout/charter.html)
+- [Action tracker](https://www.w3.org/International/groups/hebrew-layout/track/actions/open)
+- [Practical tips for task forces](https://w3c.github.io/i18n-activity/guidelines/process.html)
