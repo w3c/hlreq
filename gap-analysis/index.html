@@ -178,7 +178,9 @@
     <p class="status_prompt">Are there any issues when dealing with quotations marks, especially when nested? Should block quotes be indented or handled specially? <a href="http://w3c.github.io/typography/index#quotations">See available information</a> or <a href="https://github.com/w3c/i18n-activity/issues?utf8=%E2%9C%93&amp;q=is%3Aissue%20is%3Aopen%20label%3Aquotations%20label%3Atype-info-request">check for currently needed data</a>.</p>
 
 
-    <p></p>
+    <p>According to the section on quotation marks (<span lang="he" dir="rtl">מירכאות</a>) <a href="http://hebrew-academy.org.il/topic/hahlatot/punctuation/">Academy of the Hebrew Language's punctuation rules</a>, both single and double quotes are acceptable when there's no nesting. When there is nesting, different quotes are supposed to be used for the nested quote. In most of the examples in the document itself, the examples are written with double quotation marks in non-nested quotes and in the outer quote, and with single quotation marks in the nested quote.</p>
+    <p>Most of the examples in the document use the characters " and ', however it also notes the following: "In handwriting and in traditional printing the opening quotation marks are low: <span dir="rtl" lang="he">„–”; ‚–’</span> On devices that don't support typing the low quotation marks, the high quotation marks are used." Typing the low and high quotation marks is defined in the SI 1452 standard (2012 version) on the keys Alt-;, Alt-L, Alt-., and Alt-,. This standard is implemented in Windows 8, as well as in desktop Linux distributions, and in the Gboard keyboard for Android and iOS.</p>
+    <p>The &lt;q> elements don't currently show low quotation marks for Hebrew at all. Example can be found at a <a href="https://jsfiddle.net/amire80/b4d5bhs2/3/">Hebrew Q fiddle</a>. Firefox shows “ for the beginning and ” for the ending. Chrome uses the plain " and ' characters. Chrome's behavior is acceptable, although not very elegant. Firefox's behavior is definitely wrong. It would be good to have the elegant low and high quotes as the standard, or at least to have " and ' characters as the standard.</p>
 </section>
 
 
