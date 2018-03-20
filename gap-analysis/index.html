@@ -158,7 +158,18 @@
 
 
 
-    <p></p>
+    <p>Most of the time Hebrew is written without diacritical marks, however there are two notable uses for diacritics:</p>
+    <dl>
+    <dt>Vowel diacritics, also known as niqqud or vocalization</dt>
+    <dd>The diacritics are not used in most texts, but they are frequently used in texts for children, in poetry, in religious texts, and occasionally in prose and casual writing.</dd>
+    <dt>Cantillation, also known as teamim, teamei miqra, or trop</dt>
+    <dd>Cantillation marks are used in Biblical texts, usually together with vocalization marks.</dd>
+    </dl>
+    <p>Some known issues:</p>
+    <ul>
+    <li>A text that uses vocalization marks may have to be styled differently from the rest of the text. For example, it may need to use a different font that ensures that the vocalization marks are displayed correctly and clearly (some fonts don't display them well because they are relatively rare). It may also be desirable to show the vocalized text in larger size. It's possible to use a different CSS class for this, but it may be desirable to have a more standardized way to do this. One possible way is to define a standard language tag, for example he-vocalized.</li>
+    <li>It is occasionally useful to give the diacritics a different color, for example for the purpose of teaching. For an example of how it would appear, see the <a href="https://he.wikipedia.org/wiki/%D7%97%D7%95%D7%9C%D7%9D">Hebrew Wikipedia article Holam</a>, which shows diacritics in a different color using images. Because of the diacritics' combining nature, it's a bit complicated to insert them between separate tags, but possible by writing HTML entities instead of explicit characters. The bigger problem is that modern browsers either ignore this formatting or show it incorrectly. For examples, see <a href="https://jsfiddle.net/amire80/mfzftd9j/21/">this js fiddle, which displays different diacritics</a>.</li>
+    </ul>
     </section>
 
 
