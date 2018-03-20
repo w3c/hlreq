@@ -1,7 +1,8 @@
 # Hebrew Script Layout Requirements (hlreq)
 
 ### Documents
-- [Editor's copy](https://w3c.github.io/hlreq/)
+- [Hebrew Gap Analysis](https://w3c.github.io/hlreq/gap-analysis)
+- [Hebrew Layout Requirements](https://w3c.github.io/hlreq/)
 
 ### Feedback
 Please use the [GitHub issue list](https://github.com/w3c/hlreq/issues) to send feedback about this document.
