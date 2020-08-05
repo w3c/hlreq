@@ -12,6 +12,11 @@ Topics for discussion are suggested by [the gap-analysis template](http://w3c.gi
 - [Hebrew Gap Analysis](https://w3c.github.io/hlreq/gap-analysis)
 - [Hebrew Layout Requirements](https://w3c.github.io/hlreq/)
 
+### Related documents
+- [Additional Requirements for Bidi in HTML & CSS](https://www.w3.org/TR/html-bidi/)
+- [Ready-made Counter Styles](https://www.w3.org/TR/predefined-counter-styles/)
+
+
 ### Feedback
 Please use the [GitHub issue list](https://github.com/w3c/hlreq/issues) to report issues for language support, for discussions, and to send feedback about documents.
 
