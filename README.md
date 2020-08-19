@@ -42,7 +42,7 @@ Group _members_ are expert contributors who participate actively in producing th
 - [Practical tips for task forces](https://w3c.github.io/i18n-activity/guidelines/process.html) (See also the github and editorial guidelines below)
 - [Meeting info](https://www.w3.org/2017/07/hlreq-meeting-info.html)
 - [Mail archive](https://lists.w3.org/Archives/Public/public-i18n-hebrew/)
-- Contacts: Shervin Afshar, Behnam Esfahbod, [Richard Ishida](mailto:ishida@w3.org)
+- Contacts: Amir Aharoni, [Richard Ishida](mailto:ishida@w3.org)
 
 ### Links for editors
 If you edit a document, you should be familiar with and use the following:
