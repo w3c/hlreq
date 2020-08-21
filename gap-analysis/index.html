@@ -7,9 +7,9 @@
 <title>Hebrew Gap Analysis</title>
 <script class="remove" src="../../i18n-activity/textlayout/resources/gap-analysis-github.js"> </script>
 
-<script src="https://www.w3.org/Tools/respec/respec-w3c-common" async="" class="remove">
+<script src="https://www.w3.org/Tools/respec/respec-w3c" async="" class="remove">
 </script>
-  <script class="remove">
+<script class="remove">
   var respecConfig = {
       // specification status (e.g. WD, LCWD, WG-NOTE, etc.). If in doubt use ED.
       specStatus:           "ED",
@@ -25,6 +25,13 @@
       editors:  [
         { name: "Richard Ishida", mailto: "ishida@w3.org", company: "W3C", w3cid: 3439 },
       ],
+	  
+	  
+
+      // langs array lists languages addressed by this document, in order of speaker (highest first)
+      // it is used to generate the javascript needed for the matrix
+      langs: ['Hebrew'],
+      gapDocPath: 'https://www.w3.org/TR/hebr-gap',
 
 
       group: 		"i18n",
@@ -42,15 +49,9 @@
       			});
     		}
    		],
-	  
-	  
+      };
+</script>
 
-      // langs array lists languages addressed by this document, in order of speaker (highest first)
-      // it is used to generate the javascript needed for the matrix
-      langs: ['Hebrew'],
-      gapDocPath: 'https://www.w3.org/TR/hebr-gap',
-    };
-  </script>
 <script  class="remove" src="/i18n-activity/templates/gap-analysis/prompts.js"> </script>
 <link rel="stylesheet" href="/typography/gap-analysis/gapanalysis.css">
 </head>
@@ -462,6 +463,8 @@ It is linked to from the <a href="https://w3c.github.io/typography/gap-analysis/
 addPrompts() 
 getAllData('hlreq','doc:hlreq')
 </script>
+
+
 
 
 <section class="appendix" id="acknowledgements">
