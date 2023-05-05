@@ -11,6 +11,12 @@ Topics for discussion are suggested by [the gap-analysis template](https://www.w
 [GitHub repo](https://github.com/w3c/hlreq) • [Discussion threads](https://github.com/w3c/hlreq/issues) • [Issue tracker](https://www.w3.org/International/i18n-activity/textlayout/?filter=hlreq) (with alreq filter) • [Charter](https://www.w3.org/International/hlreq/charter/)
 
 
+### Help wanted!
+We're looking for information about this writing system. Follow the link for specific questions.
+
+[Hebrew](https://github.com/w3c/hlreq/issues?q=is%3Aissue+is%3Aopen+label%3Aquestion)
+
+
 ### Documents
 - [**Hebrew Gap Analysis**](https://www.w3.org/TR/hebr-gap) • [*Editor's draft*](https://www.w3.org/International/hlreq/gap-analysis/) • [*Latest commits*](https://github.com/w3c/hlreq/commits/gh-pages/gap-analysis/index.html) • [*Edit/comment on GitHub*](https://github.com/w3c/hlreq/labels/doc%3Ahlreq)
 - [**Hebrew Layout Requirements**](https://www.w3.org/International/hlreq/) • [*Editor's draft*](https://www.w3.org/International/hlreq/) • [*Latest commits*](https://github.com/w3c/hlreq/commits/gh-pages/index.html)
