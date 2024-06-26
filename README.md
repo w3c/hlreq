@@ -18,7 +18,7 @@ Topics for discussion are suggested by [the gap-analysis template](https://www.w
 
 
 ### Key links
-[GitHub repo](https://github.com/w3c/hlreq) • [Discussion threads](https://github.com/w3c/hlreq/issues) • [Issue tracker](https://www.w3.org/International/i18n-activity/textlayout/?filter=hlreq) (with alreq filter) • [Charter](https://www.w3.org/International/hlreq/charter/)
+[GitHub repo](https://github.com/w3c/hlreq) • [Discussion threads](https://github.com/w3c/hlreq/issues) • [Charter](https://www.w3.org/International/hlreq/charter/)
 
 
 ### Documents
