@@ -21,9 +21,14 @@ Topics for discussion are suggested by [the gap-analysis template](https://www.w
 [GitHub repo](https://github.com/w3c/hlreq) • [Discussion threads](https://github.com/w3c/hlreq/issues) • [Charter](https://www.w3.org/International/hlreq/charter/)
 
 
-### Documents
-- **Hebrew Gap Analysis** • [DNOTE](https://www.w3.org/TR/hebr-gap) • [*Editor's draft*](https://www.w3.org/International/hlreq/gap-analysis/) • [*Latest commits*](https://github.com/w3c/hlreq/commits/gh-pages/gap-analysis/index.html)
+### Resource & requirement documents
+- **Hebrew Script Resources** • [DNOTE](https://www.w3.org/TR/hebr-lreq) • [*Editor's draft*](https://www.w3.org/International/hlreq/hebr/) • [*Latest commits*](https://github.com/w3c/hlreq/commits/gh-pages/hebr/index.html)
 - **Hebrew Layout Requirements** • [DNOTE](https://www.w3.org/International/hlreq/) • [*Editor's draft*](https://www.w3.org/International/hlreq/) • [*Latest commits*](https://github.com/w3c/hlreq/commits/gh-pages/index.html)
+
+### Gap analysis documents
+- **Hebrew Gap Analysis** • [DNOTE](https://www.w3.org/TR/hebr-gap) • [*Editor's draft*](https://www.w3.org/International/hlreq/gap-analysis/) • [*Latest commits*](https://github.com/w3c/hlreq/commits/gh-pages/gap-analysis/index.html)
+
+
 
 
 ### Discussions
