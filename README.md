@@ -6,6 +6,10 @@ We aim to address the problem that local users don't know how to tell the W3C wh
 
 Topics for discussion are suggested by [the gap-analysis template](https://www.w3.org/International/i18n-activity/templates/gap-analysis/gap-analysis_template.html). This work feeds into the [language matrix](https://www.w3.org/International/typography/gap-analysis/language-matrix.html) which provides a heat-map for language issues on the Web.
 
+
+### Key links
+[GitHub repo](https://github.com/w3c/hlreq) • [Discussion threads](https://github.com/w3c/hlreq/issues) • [Charter](https://www.w3.org/International/hlreq/charter/)
+
 ---
 
 ## Help wanted!
@@ -17,29 +21,18 @@ Topics for discussion are suggested by [the gap-analysis template](https://www.w
 
 
 
-### Key links
-[GitHub repo](https://github.com/w3c/hlreq) • [Discussion threads](https://github.com/w3c/hlreq/issues) • [Charter](https://www.w3.org/International/hlreq/charter/)
-
-
-### Resource & requirement documents
+### Hebrew
 - **Hebrew Script Resources** • [DNOTE](https://www.w3.org/TR/hebr-lreq) • [*Editor's draft*](https://www.w3.org/International/hlreq/hebr/) • [*Latest commits*](https://github.com/w3c/hlreq/commits/gh-pages/hebr/index.html)
 - **Hebrew Layout Requirements** • [DNOTE](https://www.w3.org/International/hlreq/) • [*Editor's draft*](https://www.w3.org/International/hlreq/) • [*Latest commits*](https://github.com/w3c/hlreq/commits/gh-pages/index.html)
-
-### Gap analysis documents
 - **Hebrew Gap Analysis** • [DNOTE](https://www.w3.org/TR/hebr-gap) • [*Editor's draft*](https://www.w3.org/International/hlreq/gap-analysis/) • [*Latest commits*](https://github.com/w3c/hlreq/commits/gh-pages/gap-analysis/index.html)
-
-
-
-
-### Discussions
-- **Hebrew** • [*Questions*](https://github.com/w3c/hlreq/issues?q=is%3Aissue+is%3Aopen+label%3Aquestion)
+- **Discussions** • [*Questions*](https://github.com/w3c/hlreq/issues?q=is%3Aissue+is%3Aopen+label%3Aquestion)
 • [*Gap reports*](https://github.com/w3c/hlreq/labels/doc%3Ahlreq)
 • [*Other*](https://github.com/w3c/hlreq/issues?q=is%3Aopen+-label%3Aquestion+-label%3Agap) 
 • [*Spec issues*](https://github.com/w3c/i18n-activity/issues?q=is%3Aopen+label%3Ahlreq+label%3Aspec-type-issue)
 
 
 
-### Related documents
+### Other documents
 - [Additional Requirements for Bidi in HTML & CSS](https://www.w3.org/TR/html-bidi/)
 - [Ready-made Counter Styles](https://www.w3.org/TR/predefined-counter-styles/)
 
